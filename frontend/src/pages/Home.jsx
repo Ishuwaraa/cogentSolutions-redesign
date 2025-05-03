@@ -114,7 +114,7 @@ const Home = () => {
                         
             <Navbar />
                         
-            <div className="z-10 text-center px-4">
+            <div className="z-10 text-center px-4 mt-10 lg:mt-14">
                 <p className="text-gray-300 mb-2">Organized by</p>
                                 
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -155,7 +155,7 @@ const Home = () => {
                 viewport={{ once: true, amount: 0.1 }}
                 variants={fadeInUp}
             >
-                <h2 className="text-3xl md:text-4xl font-bold mb-12">Event Overview</h2>
+                <h2 className="text-4xl md:text-5xl font-bold mb-12">Event Overview</h2>
                 
                 <div className="flex flex-col md:flex-row gap-8 items-center">
                     <div className="w-full md:w-1/2 order-2 md:order-1">
@@ -186,7 +186,7 @@ const Home = () => {
             </motion.section>                    
             
             <section id="speakers" className="py-16 px-4 md:px-16 max-w-7xl mx-auto">
-                <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">Meet Our Speakers</h2>
+                <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">Meet Our Speakers</h2>
                 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
                     <div className="col-span-full sm:col-span-2 lg:col-span-4 flex flex-wrap justify-center gap-6">
@@ -208,7 +208,7 @@ const Home = () => {
 
             <section id="about" className="py-16 px-4 md:px-16 bg-black text-white">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-3xl md:text-4xl font-bold mb-8">About Finastra</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold mb-8">About Finastra</h2>
                     
                     <div className="text-gray-300 leading-relaxed">
                         <p className="mb-6">
@@ -229,7 +229,7 @@ const Home = () => {
                 <div className="max-w-6xl mx-auto">
                     <div className="flex flex-col md:flex-row items-center justify-between">
                         <div className="w-full md:w-2/5 mb-8 md:mb-0">
-                            <h2 className="text-3xl md:text-4xl font-bold mb-4">Register Now</h2>
+                            <h2 className="text-4xl md:text-5xl font-bold mb-4">Register Now</h2>
                             <p className="text-xl mb-4">Join us for an unforgettable experience!</p>
                             <p className="text-gray-200">
                                 Secure your spot at this exclusive banking event where industry leaders and innovators 
