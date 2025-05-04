@@ -8,7 +8,7 @@ const Navbar = () => {
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
     return ( 
-        <nav className="absolute top-0 left-0 right-0 z-10 px-4 py-6 md:px-16">
+        <nav className="absolute top-0 left-0 right-0 z-20 px-4 py-6 md:px-16">
             <div className="flex items-center justify-between">
                 <div className="flex-shrink-0">                
                     <img src={Logo} alt="Cogent Solutions Logo" className="h-8 md:h-10" />
@@ -38,7 +38,7 @@ const Navbar = () => {
                     )}
                 </button>
             </div>
-                        
+            
             {isMenuOpen && (
                 <div className="md:hidden mt-4 bg-primary bg-opacity-80 rounded p-4">
                     <div className="flex flex-col space-y-4">
